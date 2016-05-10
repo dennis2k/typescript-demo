@@ -1,0 +1,24 @@
+/**
+ * Modules
+ */
+var inventory;
+(function (inventory) {
+    class Product {
+    }
+    inventory.Product = Product;
+    class Category {
+    }
+    //Alright since we are in same module         
+    var p = new Product();
+    var c = new Category();
+})(inventory || (inventory = {}));
+//We need to call the module / namespace 
+var p = new inventory.Product();
+//var c = new inventory.Category(); // No export = isolated to inventory module scope
+var finance;
+(function (finance) {
+    class OrderLines {
+    }
+})(finance || (finance = {}));
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIjQtbW9kdWxlcy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUNILElBQU8sU0FBUyxDQWFmO0FBYkQsV0FBTyxTQUFTLEVBQUMsQ0FBQztJQUNkO0lBSUEsQ0FBQztJQUpZLGlCQUFPLFVBSW5CLENBQUE7SUFDRDtJQUdBLENBQUM7SUFDRCw4Q0FBOEM7SUFDOUMsSUFBSSxDQUFDLEdBQUcsSUFBSSxPQUFPLEVBQUUsQ0FBQztJQUN0QixJQUFJLENBQUMsR0FBRyxJQUFJLFFBQVEsRUFBRSxDQUFDO0FBQzNCLENBQUMsRUFiTSxTQUFTLEtBQVQsU0FBUyxRQWFmO0FBQ0QseUNBQXlDO0FBQ3pDLElBQUksQ0FBQyxHQUFHLElBQUksU0FBUyxDQUFDLE9BQU8sRUFBRSxDQUFDO0FBQ2hDLHFGQUFxRjtBQUVyRixJQUFPLE9BQU8sQ0FPYjtBQVBELFdBQU8sT0FBTyxFQUFDLENBQUM7SUFFWjtJQUlBLENBQUM7QUFDTCxDQUFDLEVBUE0sQ0FNRixNQU5TLEtBQVAsT0FBTyxRQU9iIiwiZmlsZSI6IjQtbW9kdWxlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxyXG4gKiBNb2R1bGVzXHJcbiAqL1xyXG5tb2R1bGUgaW52ZW50b3J5IHtcclxuICAgIGV4cG9ydCBjbGFzcyBQcm9kdWN0IHtcclxuICAgICAgICBuYW1lIDogc3RyaW5nOyAgXHJcbiAgICAgICAgc2t1IDogc3RyaW5nOyBcclxuICAgICAgICBjYXRlZ29yeSA6IENhdGVnb3J5O1xyXG4gICAgfSBcclxuICAgIGNsYXNzIENhdGVnb3J5IHtcclxuICAgICAgICBuYW1lIDogc3RyaW5nO1xyXG4gICAgICAgIHBhcmVudCA6IHN0cmluZztcclxuICAgIH1cclxuICAgIC8vQWxyaWdodCBzaW5jZSB3ZSBhcmUgaW4gc2FtZSBtb2R1bGUgICAgICAgICBcclxuICAgIHZhciBwID0gbmV3IFByb2R1Y3QoKTtcclxuICAgIHZhciBjID0gbmV3IENhdGVnb3J5KCk7IFxyXG59XHJcbi8vV2UgbmVlZCB0byBjYWxsIHRoZSBtb2R1bGUgLyBuYW1lc3BhY2UgXHJcbnZhciBwID0gbmV3IGludmVudG9yeS5Qcm9kdWN0KCk7XHJcbi8vdmFyIGMgPSBuZXcgaW52ZW50b3J5LkNhdGVnb3J5KCk7IC8vIE5vIGV4cG9ydCA9IGlzb2xhdGVkIHRvIGludmVudG9yeSBtb2R1bGUgc2NvcGVcclxuXHJcbm1vZHVsZSBmaW5hbmNlIHtcclxuICAgIFxyXG4gICAgY2xhc3MgT3JkZXJMaW5lcyB7XHJcbiAgICAgICAgcXVhbnRpdHkgOiBudW1iZXI7XHJcbiAgICAgICAgcHJvZHVjdCA6IGludmVudG9yeS5Qcm9kdWN0O1xyXG4gICAgICAgIFxyXG4gICAgfSAgICAgICAgXHJcbn1cclxuXHJcbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

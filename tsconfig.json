@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ES6"
+  },
+  "filesGlob": [
+    "src/*{.ts, .d.ts}",
+    "typings/tsd/**/*{.ts, .d.ts}"
+  ],
+  "files": [
+    "typings/tsd/angular-local-storage/angular-local-storage.d.ts",
+    "typings/tsd/angular-translate/angular-translate.d.ts",
+    "typings/tsd/angular-ui-bootstrap/angular-ui-bootstrap.d.ts",
+    "typings/tsd/angular-ui-router/angular-ui-router.d.ts",
+    "typings/tsd/angularjs-toaster/angularjs-toaster.d.ts",
+    "typings/tsd/angularjs/angular-animate.d.ts",
+    "typings/tsd/angularjs/angular-cookies.d.ts",
+    "typings/tsd/angularjs/angular-mocks.d.ts",
+    "typings/tsd/angularjs/angular-resource.d.ts",
+    "typings/tsd/angularjs/angular-sanitize.d.ts",
+    "typings/tsd/angularjs/angular.d.ts",
+    "typings/tsd/jasmine/jasmine.d.ts",
+    "typings/tsd/jquery/jquery.d.ts",
+    "typings/tsd/moment/moment-node.d.ts",
+    "typings/tsd/moment/moment.d.ts",
+    "typings/tsd/oclazyload/oclazyload.d.ts",
+    "typings/tsd/q/Q.d.ts",
+    "src/1-typings.ts",
+    "src/2-functions.ts",
+    "src/3-interface-and-classes.ts",
+    "src/4-modules.ts",
+    "src/5-inheritance.ts",
+    "src/6-delaration-files.ts"
+  ]
+}

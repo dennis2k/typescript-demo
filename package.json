@@ -1,0 +1,29 @@
+{
+  "name": "typescript-demo",
+  "version": "1.0.0",
+  "description": "Demo pages for typescript",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.7.8",
+    "gulp-sourcemaps": "^1.5.1",
+    "tsconfig-glob" : "0.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennis2k/typescript-demo.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Dennis Mortensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennis2k/typescript-demo/issues"
+  },
+  "homepage": "https://github.com/dennis2k/typescript-demo#readme"
+}
